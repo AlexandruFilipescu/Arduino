@@ -2,7 +2,7 @@
 In this tutorial, we want to highlight how to use the input and output pins, as well as some explanatory examples.
 
 ## What is a pinout? 
-A pinout diagram showing the arrangement of pins on an integrated circuit and their functions.
+A pinout is a diagram showing the arrangement of pins on an integrated circuit and their functions.
 
 
 
