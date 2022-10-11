@@ -2,5 +2,5 @@
 The hands-on for the Fabrication &amp; Prototyping In The Learning Lab
 
 ## What is a pinout? 
-A pinout isa  diagram showing the arrangement of pins on an integrated circuit and their functions.
+A pinout is a  diagram showing the arrangement of pins on an integrated circuit and their functions.
 
