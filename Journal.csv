@@ -1,0 +1,5 @@
+Date	Person	Contribution
+11.10.2022	Sandro	Researched some possible ideas.
+11.10.2022	Alexandru	Created the Github pages document.
+14.10.2022	Sandro	Wired safely the IR sensors to our boards. Managed to receive a signal.
+14.10.2022	Alexandru	"Tested a led on a pin, debugged non-working code. Managed to send a signal."
