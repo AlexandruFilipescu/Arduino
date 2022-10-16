@@ -1,5 +1,7 @@
-Date	Person	Contribution
-11.10.2022	Sandro	Researched some possible ideas.
-11.10.2022	Alexandru	Created the Github pages document.
-14.10.2022	Sandro	Wired safely the IR sensors to our boards. Managed to receive a signal.
-14.10.2022	Alexandru	"Tested a led on a pin, debugged non-working code. Managed to send a signal."
+"Date	","Person	",Contribution
+"11.10.2022	",Sandro,"	Researched some possible ideas."
+"11.10.2022	",Alexandru,"	Created the Github pages document."
+"14.10.2022		",Sandro,Wired safely the IR sensors to our boards. Managed to receive a signal.
+"14.10.2022		",Alexandru ,"""Tested a led on a pin + debugged non-working code. Managed to send a signal."""
+16.10.2022,Sandro,"Suggested ideas for the order and topics of the presentation, researched more about IR and debugged one of the boards."
+16.10.2022,Alexandru ,"Created a Jamboard and suggested ideas for the order and topics of the presentation, continued working on the Github Pages document."
