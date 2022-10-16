@@ -52,6 +52,6 @@ As we can see, the sun is in the electromagnectic spectrum, which means that dir
 2. GND pin 
 3. One digital pin (Number 6 in our case)
 
-1. 3V Pin - These pins are the output from the 3.3V regulator, they can supply 500mA peak.
-2. GND Pin - This is the common ground for all power and logic.
-3. From D5-D6, D9-D13 - These are digital pins. In our case, we used D6 for the communication between the Arduino board and the sensors.
+3V Pin - These pins are the output from the 3.3V regulator, they can supply 500mA peak.
+GND Pin - This is the common ground for all power and logic.
+From D5-D6, D9-D13 - These are digital pins. In our case, we used D6 for the communication between the Arduino board and the sensors.
