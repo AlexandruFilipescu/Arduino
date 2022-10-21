@@ -18,7 +18,7 @@ void loop()
         input = Serial.read();
         Serial.print("You typed: " );
         Serial.println(input);
-        IrSender.sendNEC(0xFE01D6DE, input, 0); // the address 0xFE01D6DE with the command input and 0 repetitions is sent. 
+        IrSender.sendNEC(0xFE01D6DE, "abcd", 0); // the address 0xFE01D6DE with the command input and 0 repetitions is sent. 
     }
 
   delay(1000); // wait for one second
