@@ -5,7 +5,7 @@
 
 char input;        // Related to the emitter
 
-const uint16_t MY_ADDRESS = 0xAAAA;
+const uint16_t MY_ADDRESS = 0xAAAA; // Addresses must be different from the other emitter-receiver
 
 void setup() {
   // START CODE FOR THE RECEIVER
