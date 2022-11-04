@@ -1,12 +1,11 @@
 #include <IRremote.h> // >v3.0.0 | tested on v3.9.0
 
-#define PIN_RECV 5 // Pin connected to the IR receiver
-#define PIN_SEND 6 // Pin connected to the IR emitter
+#define PIN_RECV 3 // Pin connected to the IR receiver
+#define PIN_SEND 2 // Pin connected to the IR emitter
 
 char input;        // Related to the emitter
 
-const uint16_t ALEX_ADDRESS = 0xAAAA;
-const uint16_t SANDRO_ADDRESS = 0xBBBB;
+const uint16_t MY_ADDRESS = 0xAAAA;
 
 void setup() {
   // START CODE FOR THE RECEIVER
@@ -25,7 +24,7 @@ void loop() {
   // START CODE FOR THE RECEIVER
    if (IrReceiver.decode()) {
 
-    if(!IrReceiver.decodedIRData.address == SANDRO_ADDRESS){
+    if(!IrReceiver.decodedIRData.address == MY_ADDRESS){
       Serial.println("Received something...");    
       IrReceiver.printIRResultShort(&Serial); // Prints a summary of the received data. The command is received as HEX.
       Serial.println();
@@ -42,7 +41,7 @@ void loop() {
       input = Serial.read();
       Serial.print("You typed: " );
       Serial.println(input);
-      IrSender.sendNEC(SANDRO_ADDRESS, input, 0); // the address 0xFE01D6DE with the command input and 0 repetitions is sent. 
+      IrSender.sendNEC(MY_ADDRESS, input, 0); // the address 0xFE01D6DE with the command input and 0 repetitions is sent. 
   }
 
   delay(50); // wait for one second
