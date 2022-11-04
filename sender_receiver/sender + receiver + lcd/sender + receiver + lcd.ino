@@ -16,7 +16,6 @@
 
 const uint16_t MY_ADDRESS = 0xBBBB; // Addresses must be different from the other emitter-receiver
 
-
 // include the library code:
 #include <IRremote.h> // >v3.0.0 | tested on v3.9.0
 #include <LiquidCrystal.h>
