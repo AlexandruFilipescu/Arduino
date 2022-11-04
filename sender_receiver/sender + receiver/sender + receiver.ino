@@ -43,7 +43,6 @@ void loop() {
       Serial.println(input);
       IrSender.sendNEC(MY_ADDRESS, input, 0); // the address 0xFE01D6DE with the command input and 0 repetitions is sent. 
   }
-
   delay(50); // wait for one second
   // END CODE FOR THE SENDER
 }
